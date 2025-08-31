@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* CataractEye custom styles */
+.file-upload {
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  .pupil-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    .canvas-container {
+      color: white;
+    }
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+.result-card:hover {
+}
+
+@keyframes pulse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pulse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
